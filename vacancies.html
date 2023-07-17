@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>vacancies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Content-type" content="text/html" ; charset="UTF-8" />
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="pop-up-window-price">
+        <div class="pop-up-window" id="popUpWindow">
+            <div class="container">
+                <div class="pop-up-window__body pop-up-window__body-price">
+                    <div class="pop-up-window__btn-close btn-close" id="btnClose"></div>
+                    <div class="pop-up-window__title title">Скачать прайс-лист</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">ваше имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">e-mail</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="email">
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="pop-up-window-summary">
+        <div class="pop-up-window" id="popUpWindowSummary">
+            <div class="container">
+                <div class="pop-up-window__body">
+                    <div class="pop-up-window__btn-close btn-close" id="btnCloseSummary"></div>
+                    <div class="pop-up-window__title title">Отправить резюме</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">отчество</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">фамилия</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">город</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">желаемая вакансия</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">сопроводительное письмо</div>
+                        <input class="pop-up-window__data-input data-input-feedback_big" type="text" >
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">прикрепить резюме</div>
+                        <div class="pop-up-window__file">
+                            <p>Перенесите сюда ваше резюме или нажмите на кнопку.</p>
+                            <p>Поддерживаемые форматы: <span>PDF, DOCX, DOC</span></p>
+                            <button class="pop-up-window__btn-all btn-all">Выбрать файл</button>
+                        </div>
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="pop-up-window-vacancies">
+        <div class="pop-up-window" id="popUpWindowVacancies">
+            <div class="container">
+                <div class="pop-up-window__body">
+                    <div class="pop-up-window__btn-close btn-close" id="btnCloseVacancies"></div>
+                    <div class="pop-up-window__title title">Откликнуться на вакансию</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">отчество</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">фамилия</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">сопроводительное письмо</div>
+                        <input class="pop-up-window__data-input data-input-feedback_big" type="text" >
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">прикрепить резюме</div>
+                        <div class="pop-up-window__file">
+                            <p>Перенесите сюда ваше резюме или нажмите на кнопку.</p>
+                            <p>Поддерживаемые форматы: <span>PDF, DOCX, DOC</span></p>
+                            <button class="pop-up-window__btn-all btn-all">Выбрать файл</button>
+                        </div>
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>   
+        
+    <div class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__collumn-left">
+                    <div class="header__logo">
+                       <a href="/index.html">
+                            <img src="./img/logo/logo.png" alt="логотип-vektor">
+                        </a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li>
+                               <a href="/catalog.html"class="pop-up-menu-catalog">Каталог</a>
+                                <div class="header__sub-menu-list">
+                                    <div class="container">
+                                        <div class="catalog-menu">
+                                            <div class="catalog-menu__body">
+                                                <div class="catalog-menu__row">
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                               <a href="/catalog-subcategory.html" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Опалубочные системы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонораздаточные стрелы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Мачтовые подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительные леса<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                               <a href="/wedge-forests.html" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонозаводы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительное оборудование</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Оснастка и расходники<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Башенные краны</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонанасосы<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Фасадные подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog-menu__price">
+                                                    <svg class="icon-download icon-download_red">
+                                                        <use xlink: href="sprite.svg#download"></use>
+                                                    </svg>
+                                                    <span class="catalog-menu__text">Полный прайс-лист оборудования</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                               <a href="/completed-objects.html">Объекты</a>
+                            </li>
+                            <li>
+                               <a href="/about-company.html">О компании</a>
+                            </li>
+                            <li>
+                               <a href="/contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__collumn-right">
+                    <div class="header__price">
+                        <a href="##" id="btnPriсe_header">
+                            <svg class="icon-download icon-download_red">
+                                <use xlink: href="sprite.svg#download"></use>
+                            </svg>
+                            <span class="header__text">Скачать прайс</span>
+                        </a>
+                    </div>
+                    <div class="header__telephone">
+                        <div class="header__telephone-top">
+                            <a href="tel:78002501712">
+                                <svg class="icon-phone icon-phone_black">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>                                  
+                                <span>8(800) 250-17-12</span>
+                            </a>
+                        </div>
+                        <div class="header__telephone-bottom">Заказать звонок</div>
+                    </div>
+                </div>
+                <div class="header__burger-icon">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bread-crumbs">
+            <div class="container">
+                <div class="bread-crumbs__row">
+                    <ul class="bread-crumbs__text">
+                        <li><a href="index.html">главная</a></li>
+                        <li>вакансии</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <div class="vacancies">
+            <div class="container">
+                <div class="vacancies__title title">Вакансии</div>
+                <div class="vacancies__collumns">
+                    <div class="vacancies__collumn-main">
+                       <div class="vacancies__text">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus aliquid necessitatibus, maiores, quo deserunt nihil magnam architecto voluptatem doloribus qui repudiandae sit modi dicta magni cupiditate consectetur praesentium, quae excepturi explicabo fuga. Veniam rem, asperiores laboriosam libero enim doloremque temporibus ipsum officia et doloribus totam quibusdam eaque non dolorum. Perspiciatis veritatis, ex architecto explicabo tenetur doloribus ratione temporibus exercitationem accusamus!
+                       </div>
+                       <div class="vacancies__subtitle">В настоящий момент у нас открыты следующие вакансии:</div>
+                       <div class="vacancies__row">
+                           <div class="vacancies__item job">
+                            <div class="job__item">
+                                <div class="job__header">
+                                    <div class="job__collumn-title">
+                                        <div class="job__title">Проектировщик объектов ПГС</div>
+                                        <div class="job__subtitle">г. Владивосток, Приморский край</div>
+                                    </div>
+                                    <div class="job__collumn-wage">
+                                        <div class="job__wage">55 000 &#8381;</div>
+                                        <button class="job__btn-one btn-one">
+                                            <svg class="icon-arrow icon-arrow_bottom">
+                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="job__body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quam veritatis, ea odit impedit mollitia, illum vel dicta ipsum magnam deleniti maxime aliquid quasi recusandae fugiat unde, sit eveniet. Assumenda ut veritatis amet illo est aspernatur velit itaque et ipsam!
+                                </div>
+                            </div>
+                           </div>
+                       </div> 
+                       <div class="vacancies__row">
+                        <div class="vacancies__item job">
+                         <div class="job__item">
+                             <div class="job__header">
+                                 <div class="job__collumn-title">
+                                     <div class="job__title">Менеджер активных продаж</div>
+                                     <div class="job__subtitle">г. Владивосток, Приморский край</div>
+                                 </div>
+                                 <div class="job__collumn-wage">
+                                     <div class="job__wage">Оклад + %</div>
+                                     <button class="job__btn-one btn-one">
+                                        <svg class="icon-arrow icon-arrow_bottom">
+                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                        </svg>
+                                     </button>
+                                 </div>
+                             </div>
+                             <div class="job__body body-job">
+                                 <div class="body-job__duties">
+                                     <div class="body-job__duties-title">Обязанности:</div>
+                                     <ul class="body-job__duties-list">
+                                         <li>Расширение клиенской базы</li>
+                                         <li>Обеспечение плана продаж</li>
+                                         <li>Формирование коммерческих предложений и заключение договоров путем личных встреч и переговоров (в т.ч. телефонных)</li>
+                                         <li>Сопровождение сделок, контроль соблюдение сроков и условий поставков</li>
+                                         <li>Контроль дебиторской задолжности</li>
+                                         <li>Поддержание долгосрочных отношений с клиентами</li>
+                                         <li>Возможность командировок</li>
+                                     </ul>
+                                 </div>
+                                 <div class="body-job__requirements">
+                                    <div class="body-job__requirement-title">Требования:</div>
+                                    <ul class="body-job__requirements-list">
+                                        <li>Высшие образование</li>
+                                        <li>Желателен опыт продаж в строительном секторе</li>
+                                        <li>Уверенный пользователь ПК</li>
+                                        <li>Владение офисной техникой</li>
+                                    </ul>
+                                 </div>
+                                 <div class="body-job__conditions">
+                                    <div class="body-job__conditions-title">Условия работы:</div>
+                                    <ul class="body-job__conditions-list">
+                                        <li>Официальное трудоустройство по ТК РФ</li>
+                                        <li>Достойный уровень оплаты труда</li>
+                                        <li>График работы 5/2 с 9:00 до 18:00</li>
+                                    </ul>
+                                 </div>
+                                 <a href="##" class="body-job__priсe priсe" id="btnVacancies">
+                                    <svg class="icon-pencil">
+                                        <use xlink: href="sprite.svg#pencil"></use>
+                                    </svg>
+                                    <span class="body-jobs__price-text">Откликнуться на вакансию</span>
+                                </a>
+                             </div>
+                         </div>
+                        </div>
+                        </div>
+                        <div class="vacancies__row">
+                            <div class="vacancies__item job">
+                             <div class="job__item">
+                                 <div class="job__header">
+                                     <div class="job__collumn-title">
+                                         <div class="job__title">Менеджер активных продаж</div>
+                                         <div class="job__subtitle">г. Владивосток, Приморский край</div>
+                                     </div>
+                                     <div class="job__collumn-wage">
+                                         <div class="job__wage">Оклад + %</div>
+                                         <button class="job__btn-one btn-one">
+                                            <svg class="icon-arrow icon-arrow_bottom">
+                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                            </svg>
+                                         </button>
+                                     </div>
+                                 </div>
+                                 <div class="job__body body-job">
+                                     <div class="body-job__duties">
+                                         <div class="body-job__duties-title">Обязанности:</div>
+                                         <ul class="body-job__duties-list">
+                                             <li>Расширение клиенской базы</li>
+                                             <li>Обеспечение плана продаж</li>
+                                             <li>Формирование коммерческих предложений и заключение договоров путем личных встреч и переговоров (в т.ч. телефонных)</li>
+                                             <li>Сопровождение сделок, контроль соблюдение сроков и условий поставков</li>
+                                             <li>Контроль дебиторской задолжности</li>
+                                             <li>Поддержание долгосрочных отношений с клиентами</li>
+                                             <li>Возможность командировок</li>
+                                         </ul>
+                                     </div>
+                                     <div class="body-job__requirements">
+                                        <div class="body-job__requirement-title">Требования:</div>
+                                        <ul class="body-job__requirements-list">
+                                            <li>Высшие образование</li>
+                                            <li>Желателен опыт продаж в строительном секторе</li>
+                                            <li>Уверенный пользователь ПК</li>
+                                            <li>Владение офисной техникой</li>
+                                        </ul>
+                                     </div>
+                                     <div class="body-job__conditions">
+                                        <div class="body-job__conditions-title">Условия работы:</div>
+                                        <ul class="body-job__conditions-list">
+                                            <li>Официальное трудоустройство по ТК РФ</li>
+                                            <li>Достойный уровень оплаты труда</li>
+                                            <li>График работы 5/2 с 9:00 до 18:00</li>
+                                        </ul>
+                                     </div>
+                                     <a href="##" class="body-job__priсe priсe" id="btnVacancies">
+                                        <svg class="icon-pencil">
+                                            <use xlink: href="sprite.svg#pencil"></use>
+                                        </svg>
+                                        <span class="body-jobs__price-text">Откликнуться на вакансию</span>
+                                    </a>
+                                 </div>
+                             </div>
+                            </div>
+                            </div>
+                        <div class="vacancies__row">
+                            <div class="vacancies__item job">
+                             <div class="job__item">
+                                 <div class="job__header">
+                                     <div class="job__collumn-title">
+                                         <div class="job__title">Проектировщик объектов ПГС</div>
+                                         <div class="job__subtitle">г. Владивосток, Приморский край</div>
+                                     </div>
+                                     <div class="job__collumn-wage">
+                                         <div class="job__wage">55 000 &#8381;</div>
+                                         <button class="job__btn-one btn-one">
+                                            <svg class="icon-arrow icon-arrow_bottom">
+                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                            </svg>
+                                         </button>
+                                     </div>
+                                 </div>
+                                 <div class="job__body">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quam veritatis, ea odit impedit mollitia, illum vel dicta ipsum magnam deleniti maxime aliquid quasi recusandae fugiat unde, sit eveniet. Assumenda ut veritatis amet illo est aspernatur velit itaque et ipsam!
+                                 </div>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="vacancies__massage vacancies__massage_display-none">
+                            <div class="vacancies__massage-text">Не нашли подходящей вакансии, напиши нам</div>
+                            <button class="vacancies__priсe priсe" id="btnSummary">
+                                <svg class="icon-pencil">
+                                    <use xlink: href="sprite.svg#pencil"></use>
+                                </svg>
+                                <span class="vacancies__price-text">Отправить резюме     </span>
+                            </button>
+                        </div>   
+                    </div>
+                    <div class="vacancies__collumn-sticky">
+                        <div class="vacancies__fast-travel fast-travel">
+                            <div class="fast-travel__row">
+                               <a href="/about-company.html">О компании</a>
+                                <a href="">Вакансии</a>
+                               <a href="/news.html">Новости</a>
+                               <a href="/contacts.html">Контакты</a>
+                            </div>
+                            <div class="vacancies__massage">
+                                <div class="vacancies__massage-text">Не нашли подходящей вакансии, напиши нам</div>
+                                <button class="vacancies__priсe priсe" id="btnSummary">
+                                    <svg class="icon-pencil">
+                                        <use xlink: href="sprite.svg#pencil"></use>
+                                    </svg>
+                                    <span class="vacancies__price-text">Отправить резюме</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__columns">
+                    <div class="footer__menu">
+                        <div class="footer__text">
+                            <div class="footer__column">
+                                <div class="footer__equipment">
+                                    <div class="footer__title">Оборудование</div>
+                                    <div class="footer__text-menu">
+                                        <a href="#">Опалубка перекрытий</a>
+                                        <a href="#">Стеновая опалубка</a>
+                                        <a href="#">Специальная опалубка</a>
+                                        <a href="#">Несущие леса</a>
+                                        <a href="#">Подъемное оборудование</a>
+                                        <a href="#">Бетонанасосы и стрелы</a>
+                                        <a href="#">Бетонозаводы</a>
+                                    </div>
+                                </div>
+                                <div class="footer__company">
+                                    <div class="footer__title">Компания</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Филиалы</a>
+                                        <a href="">Объекты</a>
+                                        <a href="">Вакансии</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__column">
+                                <div class="footer__buyers">
+                                    <div class="footer__title">Покупателям</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Инженерное сопровождение</a>
+                                        <a href="">Шефмонтаж</a>
+                                        <a href="">Доставка</a>
+                                        <a href="">Гарантия и сервис</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__body">
+                            <div class="footer__office">центральный офис</div>
+                            <div class="footer__addres">г. Москва, Пресненская наб., д.12. оф.Е8</div>
+                            <div class="footer__telephone">
+                                <svg class="icon-phone">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>
+                                <a href="tel:78002501712">8(800) 250-17-12</a>
+                            </div>
+                            <div class="footer__email">
+                                <svg class="icon-email">
+                                    <use xlink: href="sprite.svg#email"></use>
+                                </svg>
+                                <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                            </div>
+                            <div class="footer__time">
+                                <svg class="icon-clock">
+                                    <use xlink: href="sprite.svg#clock"></use>
+                                </svg>
+                                <span>с 09:00 по 18:00</span>
+                            </div>
+                           <a href="/contacts.html" class="footer__btn-next btn-next">
+                                <span>Филиалы компании</span>
+                                <svg class="icon-arrow icon-arrow_gray">
+                                    <use xlink: href="sprite.svg#arr-right"></use>
+                                </svg>
+                            </a>
+                            <div class="footer__copyright footer__copyright_media">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</div>
+
+<script src="js/burger-menu.js"></script>
+
+<script>
+   
+//////////////////////////////////////////////////////////////развернуть вакансию
+    let btns = document.querySelectorAll('.job__btn-one');
+    for (let i = 0; i < btns.length; i++) {
+	btns[i].addEventListener('click', job_btn_one_click);
+    }
+
+    function job_btn_one_click(e) {
+	e.preventDefault();
+	let job_body = this.closest('.job__item').querySelector('.job__body');
+	job_body.style.display = window.getComputedStyle(job_body).display === 'block' ? 'none' : 'block';
+    }
+
+//////////////////////////////////////////////////////////////отправить резюме
+    var btn = document.getElementById('btnSummary');
+    var popUpWindowSummary = document.getElementById('popUpWindowSummary');
+    var btnCloseSummary = document.getElementById('btnCloseSummary');
+    btn.onclick = function () {
+    popUpWindowSummary.style.display = "block";
+    }
+    btnCloseSummary.onclick = function () {
+    popUpWindowSummary.style.display = "none";
+    }
+    window.onclick = function(e) {
+    if (event.target == popUpWindowSummary) {
+    popUpWindowSummary.style.display = "none";
+    }
+    }
+
+     /////////////////////////////////////////////////////////////////////////скачать прайс header
+    var btn_header = document.getElementById('btnPriсe_header');
+    var popUpWindow = document.getElementById('popUpWindow');
+    var btnClose = document.getElementById('btnClose');
+    btn_header.onclick = function () {
+    popUpWindow.style.display = "block";
+    }
+    btnClose.onclick = function () {
+    popUpWindow.style.display = "none";
+    }
+    window.onclick = function(e) {
+    if (event.target == popUpWindow) {
+    popUpWindow.style.display = "none";
+    }
+    document.body.classList.toggle('_lock');
+    }
+    
+     /////////////////////////////////////////////////////////////////////////откликнуться на вакансию
+    var btnVacancies = document.getElementById('btnVacancies');
+    var popUpWindowVacancies = document.getElementById('popUpWindowVacancies');
+    var btnCloseVacancies = document.getElementById('btnCloseVacancies');
+    btnVacancies.onclick = function () {
+    popUpWindowVacancies.style.display = "block";
+    }
+    btnCloseVacancies.onclick = function () {
+    popUpWindowVacancies.style.display = "none";
+    }
+    window.onclick = function(e) {
+    if (event.target == popUpWindowVacancies) {
+    popUpWindowVacancies.style.display = "none";
+    }
+    }
+
+</script>
+</body>
+
+</html>

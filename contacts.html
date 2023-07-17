@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>contacts</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Content-type" content="text/html" ; charset="UTF-8" />
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    
+    <div class="pop-up-window-price">
+        <div class="pop-up-window fade" id="popUpWindow">
+            <div class="container">
+                <div class="pop-up-window__body pop-up-window__body-price">
+                    <div class="pop-up-window__btn-close btn-close" id="btnClose"></div>
+                    <div class="pop-up-window__title title">Скачать прайс-лист</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">ваше имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">e-mail</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="email">
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__collumn-left">
+                    <div class="header__logo">
+                       <a href="/index.html">
+                            <img src="./img/logo/logo.png" alt="логотип-vektor">
+                        </a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li>
+                               <a href="/catalog.html"class="pop-up-menu-catalog">Каталог</a>
+                                <div class="header__sub-menu-list">
+                                    <div class="container">
+                                        <div class="catalog-menu">
+                                            <div class="catalog-menu__body">
+                                                <div class="catalog-menu__row">
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                               <a href="/catalog-subcategory.html" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Опалубочные системы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонораздаточные стрелы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Мачтовые подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительные леса<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                               <a href="/wedge-forests.html" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонозаводы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительное оборудование</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Оснастка и расходники<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Башенные краны</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонанасосы<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Фасадные подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog-menu__price">
+                                                    <svg class="icon-download icon-download_red">
+                                                        <use xlink: href="sprite.svg#download"></use>
+                                                    </svg>
+                                                    <span class="catalog-menu__text">Полный прайс-лист оборудования</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                               <a href="/completed-objects.html">Объекты</a>
+                            </li>
+                            <li>
+                               <a href="/about-company.html">О компании</a>
+                            </li>
+                            <li>
+                               <a href="/contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__collumn-right">
+                    <div class="header__price">
+                        <a href="##" id="btnPriсe_header">
+                            <svg class="icon-download icon-download_red">
+                                <use xlink: href="sprite.svg#download"></use>
+                            </svg>
+                            <span class="header__text">Скачать прайс</span>
+                        </a>
+                    </div>
+                    <div class="header__telephone">
+                        <div class="header__telephone-top">
+                            <a href="tel:78002501712">
+                                <svg class="icon-phone icon-phone_black">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>                                  
+                                <span>8(800) 250-17-12</span>
+                            </a>
+                        </div>
+                        <div class="header__telephone-bottom">Заказать звонок</div>
+                    </div>
+                </div>
+                <div class="header__burger-icon">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bread-crumbs">
+            <div class="container">
+                <div class="bread-crumbs__row">
+                    <ul class="bread-crumbs__text">
+                        <li><a href="index.html">главная</a></li>
+                        <li>контакты</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <div class="contacts">
+            <div class="container">
+                <div class="contacts__title title">Контакты</div>
+                <div class="contacts__collumns">
+                    <div class="contacts__collumn-main">
+                        <div class="main-office">
+                            <div class="main-office_subtitle">Центральный офис</div>
+                            <div class="main-office__row">
+                                <div class="main-office__collumns">
+                                    <div class="main-office__item">
+                                        <div class="main-office__subtitle">адрес</div>
+                                        <div class="main-office__text main-office__text_left">г. Москва, Пресненская наб., д.12. оф.Е8</div>
+                                    </div>
+                                    <div class="main-office__item">
+                                        <div class="main-office__subtitle">телефон</div>
+                                        <div class="main-office__text">8(800) 250-17-12</div>
+                                    </div>
+                                    <div class="main-office__item">
+                                        <div class="main-office__subtitle">email</div>
+                                        <div class="main-office__text">info@vektorvl.ru</div>
+                                    </div>
+                                    <div class="main-office__item">
+                                        <div class="main-office__subtitle">режим работы</div>
+                                        <div class="main-office__text">с 09:00 по 18:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-office__navigation navigation">
+                                <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                    <svg class="icon-marker">
+                                        <use xlink: href="sprite.svg#marker"></use>
+                                    </svg>
+                                    <span>Посмотреть на карте</span>
+                                </a>
+                            </div>
+                            <div class="main-office__map" id="map">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&amp;width=845&amp;height=650&amp;lang=ru_RU&amp;scroll=true"></script>
+                            </div>
+                        </div>
+                        <div class="branches">
+                            <div class="branches__title">Филиалы и представители</div>
+                            <div class="branches__body">
+                                <div class="branches__row">
+                                        <div class="branches__coolumns branches__coolumns_one">
+                                            <div class="branches__subtitle">адрес</div>
+                                            <div class="branches__adress">г. Петропавловск-Камчатский, ул. Ленина, 78, оф. 110</div>
+                                            <div class="branches__navigation navigation">
+                                                <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                                    <svg class="icon-marker">
+                                                        <use xlink: href="sprite.svg#marker"></use>
+                                                    </svg>
+                                                    <span>Посмотреть на карте</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="branches__coolumns">
+                                            <div class="branches__subtitle">телефон</div>
+                                            <div class="branches__telephone ">
+                                                <a href="tel:78002501712">8(800) 250-17-12</a>
+                                            </div>
+                                        </div>
+                                        <div class="branches__coolumns">
+                                            <div class="branches__subtitle">email</div>
+                                            <div class="branches__email">
+                                                <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                            </div>
+                                        </div>
+                                        <div class="branches__coolumns"></div>
+                                </div>
+                                <div class="branches__row">
+                                    <div class="branches__coolumns branches__coolumns_one">
+                                        <div class="branches__subtitle">адрес</div>
+                                        <div class="branches__adress">г. Владивосток, ул. Бородинская, 20</div>
+                                        <div class="branches__navigation navigation">
+                                            <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                                <svg class="icon-marker">
+                                                    <use xlink: href="sprite.svg#marker"></use>
+                                                </svg>
+                                                <span>Посмотреть на карте</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">телефон</div>
+                                        <div class="branches__telephone ">
+                                            <a href="tel:74232244220">+7(423) 224-42-20</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">email</div>
+                                        <div class="branches__email">
+                                            <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">факс</div>
+                                        <div class="branches__telephone ">
+                                            <a href="tel:74232244220">+7(423) 224-42-20</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="branches__row">
+                                    <div class="branches__coolumns branches__coolumns_one">
+                                        <div class="branches__subtitle">адрес</div>
+                                        <div class="branches__adress">г. Южно-Сахалинск, Курильская, 38, оф 311</div>
+                                        <div class="branches__navigation navigation">
+                                            <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                                <svg class="icon-marker">
+                                                    <use xlink: href="sprite.svg#marker"></use>
+                                                </svg>
+                                                <span>Посмотреть на карте</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">телефон</div>
+                                        <div class="branches__telephone ">
+                                            <a href="tel:78002501712">8(800) 250-17-12</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">email</div>
+                                        <div class="branches__email">
+                                            <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns"></div>
+                                </div>
+                                <div class="branches__row">
+                                    <div class="branches__coolumns branches__coolumns_one">
+                                        <div class="branches__subtitle">адрес</div>
+                                        <div class="branches__adress">г. Южно-Сахалинск, Курильская, 38, оф 311</div>
+                                        <div class="branches__navigation navigation">
+                                            <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                                <svg class="icon-marker">
+                                                    <use xlink: href="sprite.svg#marker"></use>
+                                                </svg>
+                                                <span>Посмотреть на карте</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">телефон</div>
+                                        <div class="branches__telephone ">
+                                            <a href="tel:78002501712">8(800) 250-17-12</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">email</div>
+                                        <div class="branches__email">
+                                            <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns"></div>
+                                </div>
+                                <div class="branches__row">
+                                    <div class="branches__coolumns branches__coolumns_one">
+                                        <div class="branches__subtitle">адрес</div>
+                                        <div class="branches__adress">г. Петропавловск-Камчатский, ул. Ленина, 78, оф. 110</div>
+                                        <div class="branches__navigation navigation">
+                                            <a target="_blank" href="https://yandex.ru/maps/?um=constructor%3A82d4e86e046c5686b87054c2978617e7806a7101b39baa5df97f079f5cfbf77d&source=constructorLink" class="contacts__icon">
+                                                <svg class="icon-marker">
+                                                    <use xlink: href="sprite.svg#marker"></use>
+                                                </svg>
+                                                <span>Посмотреть на карте</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">телефон</div>
+                                        <div class="branches__telephone ">
+                                            <a href="tel:78002501712">8(800) 250-17-12</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns">
+                                        <div class="branches__subtitle">email</div>
+                                        <div class="branches__email">
+                                            <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                        </div>
+                                    </div>
+                                    <div class="branches__coolumns"></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="feedback">
+                            <div class="feedback__title title"> 
+                                <p>Есть вопросы по продукции?</p>
+                                <p>Мы перезвоним!</p>
+                            </div>
+                            <div class="feedback__form">
+                                <div class="feedback__row">
+                                    <div class="feedback__collumn">
+                                        <div class="feedback__subtitle subtitle-feedback">ваше имя</div>
+                                        <input class="feedback__data-input data-input-feedback" type="text">
+                                    </div>
+                                    <div class="feedback__collumn">
+                                        <div class="feedback__subtitle subtitle-feedback">номер телефона</div>
+                                        <input class="feedback__data-input data-input-feedback" type="tel">
+                                    </div>
+                                    <div class="feedback__collumn">
+                                        <div class="feedback__subtitle subtitle-feedback">ваш город</div>
+                                        <input class="feedback__data-input data-input-feedback" type="text">
+                                    </div>
+                                    <a href="" class="feedback__priсe priсe">
+                                        <span class="feedback__price-text">Отправить</span>
+                                    </a>
+                                </div>
+                                <div class="feedback__checkbox checkbox-feedback">
+                                    <input class="feedback__
+                                    agreement" type="checkbox" name="" id="">
+                                    <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                                </div>
+                            </div>
+                            <div class="feedback__free">
+                                <div class="feedback__free-call">
+                                    <div class="feedback__subtitle">звоните по телефону</div>
+                                    <div class="feedback__telephone">
+                                        <p> 
+                                            <svg class="icon-phone icon-phone_black">
+                                            <use xlink: href="sprite.svg#phone"></use>
+                                            </svg>  
+                                        <a href="tel:78002501712">8(800) 250-17-12</a></p>
+                                        <p><span>Звонок по России бесплатный</span></p>
+                                    </div>
+                                </div>
+                                <div class="feedback__email">
+                                    <div class="feedback__subtitle">пишите на почту</div>
+                                    <svg class="icon-email">
+                                        <use xlink: href="sprite.svg#email"></use>
+                                    </svg>
+                                    <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__collumn-sticky">
+                        <div class="contacts__fast-travel fast-travel">
+                            <div class="fast-travel__row">
+                               <a href="/about-company.html">О компании</a>
+                               <a href="/vacancies.html">Вакансии</a>
+                               <a href="/news.html">Новости</a>
+                                <a href="">Контакты</a>
+                            </div>
+                            <div class="contacts__massage">
+                                <div class="contacts__massage-text">У вас появились вопросы? Напишите нам и наш менеджер свяжется с вами в ближайшее время</div>
+                                <a href="" class="contacts__priсe priсe">
+                                    <svg class="icon-pencil">
+                                        <use xlink: href="sprite.svg#pencil"></use>
+                                    </svg>
+                                    <span class="contacts__price-text">Написать сообщение</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__columns">
+                    <div class="footer__menu">
+                        <div class="footer__text">
+                            <div class="footer__column">
+                                <div class="footer__equipment">
+                                    <div class="footer__title">Оборудование</div>
+                                    <div class="footer__text-menu">
+                                        <a href="#">Опалубка перекрытий</a>
+                                        <a href="#">Стеновая опалубка</a>
+                                        <a href="#">Специальная опалубка</a>
+                                        <a href="#">Несущие леса</a>
+                                        <a href="#">Подъемное оборудование</a>
+                                        <a href="#">Бетонанасосы и стрелы</a>
+                                        <a href="#">Бетонозаводы</a>
+                                    </div>
+                                </div>
+                                <div class="footer__company">
+                                    <div class="footer__title">Компания</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Филиалы</a>
+                                        <a href="">Объекты</a>
+                                        <a href="">Вакансии</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__column">
+                                <div class="footer__buyers">
+                                    <div class="footer__title">Покупателям</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Инженерное сопровождение</a>
+                                        <a href="">Шефмонтаж</a>
+                                        <a href="">Доставка</a>
+                                        <a href="">Гарантия и сервис</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__body">
+                            <div class="footer__office">центральный офис</div>
+                            <div class="footer__addres">г. Москва, Пресненская наб., д.12. оф.Е8</div>
+                            <div class="footer__telephone">
+                                <svg class="icon-phone">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>
+                                <a href="tel:78002501712">8(800) 250-17-12</a>
+                            </div>
+                            <div class="footer__email">
+                                <svg class="icon-email">
+                                    <use xlink: href="sprite.svg#email"></use>
+                                </svg>
+                                <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                            </div>
+                            <div class="footer__time">
+                                <svg class="icon-clock">
+                                    <use xlink: href="sprite.svg#clock"></use>
+                                </svg>
+                                <span>с 09:00 по 18:00</span>
+                            </div>
+                            <a href="" class="footer__btn-next btn-next">
+                                <span>Филиалы компании</span>
+                                <svg class="icon-arrow icon-arrow_gray">
+                                    <use xlink: href="sprite.svg#arr-right"></use>
+                                </svg>
+                            </a>
+                            <div class="footer__copyright footer__copyright_media">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</div>
+
+<script src="js/burger-menu.js"></script>
+<script src="js/pop-up-window-price.js"></script>
+
+<script>
+    
+        
+    /////////////////////////////////////////////////////////////////////////скачать прайс header
+    // var btn_header = document.getElementById('btnPriсe_header');
+    // var popUpWindow = document.getElementById('popUpWindow');
+    // var btnClose = document.getElementById('btnClose');
+    // btn_header.onclick = function () {
+    // popUpWindow.style.display = "block";
+    // }
+    // btnClose.onclick = function () {
+    // popUpWindow.style.display = "none";
+    // }
+    // window.onclick = function(event) {
+    // if (event.target == popUpWindow) {
+    // popUpWindow.style.display = "none";
+    // }
+    // document.body.classList.toggle('_lock');
+    // }
+    </script>
+
+</body>
+
+</html>

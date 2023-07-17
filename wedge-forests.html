@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>wedge-forests</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<meta http-equiv="Content-type" content="text/html" ; charset="UTF-8" />
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="pop-up-window-price">
+        <div class="pop-up-window fade" id="popUpWindow">
+            <div class="container">
+                <div class="pop-up-window__body pop-up-window__body-price">
+                    <div class="pop-up-window__btn-close btn-close" id="btnClose"></div>
+                    <div class="pop-up-window__title title">Скачать прайс-лист</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">ваше имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">e-mail</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="email">
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="pop-up-window-wedge-forests">
+        <div class="pop-up-window fade" id="popUpWindowСalculation">
+            <div class="container">
+                <div class="pop-up-window__body">
+                    <div class="pop-up-window__btn-close btn-close" id="btnCloseСalculation"></div>
+                    <div class="pop-up-window__title title">Рассчитать</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">отчество</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">фамилия</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">сопроводительное письмо</div>
+                        <input class="pop-up-window__data-input data-input-feedback_big" type="text" >
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">прикрепить резюме</div>
+                        <div class="pop-up-window__file">
+                            <p>Перенесите сюда ваше резюме или нажмите на кнопку.</p>
+                            <p>Поддерживаемые форматы: <span>PDF, DOCX, DOC</span></p>
+                            <button class="pop-up-window__btn-all btn-all">Выбрать файл</button>
+                        </div>
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__collumn-left">
+                    <div class="header__logo">
+                       <a href="/index.html">
+                            <img src="./img/logo/logo.png" alt="логотип-vektor">
+                        </a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li>
+                               <a href="/catalog.html"class="pop-up-menu-catalog">Каталог</a>
+                                <div class="header__sub-menu-list">
+                                    <div class="container">
+                                        <div class="catalog-menu">
+                                            <div class="catalog-menu__body">
+                                                <div class="catalog-menu__row">
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                               <a href="/catalog-subcategory.html" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Опалубочные системы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонораздаточные стрелы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Мачтовые подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительные леса<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                               <a href="/wedge-forests.html" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонозаводы</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Строительное оборудование</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Оснастка и расходники<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Башенные краны</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__collumn">
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Бетонанасосы<span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__item">
+                                                            <div class="catalog-menu__title">
+                                                                <a href="" class="catalog-menu__btn-next btn-next">
+                                                                    <span>Фасадные подъемники</span>
+                                                                    <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <div class="catalog-menu__text">
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog-menu__price">
+                                                    <svg class="icon-download icon-download_red">
+                                                        <use xlink: href="sprite.svg#download"></use>
+                                                    </svg>
+                                                    <span class="catalog-menu__text">Полный прайс-лист оборудования</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                               <a href="/completed-objects.html">Объекты</a>
+                            </li>
+                            <li>
+                               <a href="/about-company.html">О компании</a>
+                            </li>
+                            <li>
+                               <a href="/contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__collumn-right">
+                    <div class="header__price">
+                        <a href="##" id="btnPriсe_header">
+                            <svg class="icon-download icon-download_red">
+                                <use xlink: href="sprite.svg#download"></use>
+                            </svg>
+                            <span class="header__text">Скачать прайс</span>
+                        </a>
+                    </div>
+                    <div class="header__telephone">
+                        <div class="header__telephone-top">
+                            <a href="tel:78002501712">
+                                <svg class="icon-phone icon-phone_black">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>                                  
+                                <span>8(800) 250-17-12</span>
+                            </a>
+                        </div>
+                        <div class="header__telephone-bottom">Заказать звонок</div>
+                    </div>
+                </div>
+                <div class="header__burger-icon">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bread-crumbs">
+        <div class="container">
+            <div class="bread-crumbs__row">
+                <ul class="bread-crumbs__text">
+                    <li><a href="index.html">главная</a></li>
+                    <li><a href="/project1_vektor/catalog.html">каталог</a></li>
+                    <li><a href="/project1_vektor/catalog-subcategory.html">строительные леса</a></li>
+                    <li>клиновые леса</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="wedge-forests">
+        <div class="container">
+
+            <div class="wedge-forests__title title">Vektor Ring Lock. Система несущих клиновых лесов</div>
+
+            <div class="wedge-forests__full-screen full-screen-image">
+                <div class="full-screen-image swiper"> 
+                    <div class="full-screen-image__btnTwo btnTwo">
+                        <a href="" class="full-screen-image__previous previous">
+                            <svg class="icon-arrow icon-arrow_left">
+                                <use xlink: href="sprite.svg#arr-right"></use>
+                            </svg>
+                        </a>
+                        <a href="" class="full-screen-image__next next">
+                            <svg class="icon-arrow">
+                                <use xlink: href="sprite.svg#arr-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="full-screen-image__btn">
+                        <a href="" class="full-screen-image__btn-one btn-one">
+                            <svg class="icon-full-screen">
+                                <use xlink: href="sprite.svg#full-screen"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="full-screen-image__swiper-wrapper swiper-wrapper">
+                        <div class="full-screen-image__swiper-slide swiper-slide">
+                            <img src="./img/object-item/obj_item_1.jpg" alt="Спасо-преображенский кафедральный собор" >
+                        </div>
+                        <div class="full-screen-image__swiper-slide swiper-slide">
+                            <img src="./img/object-item/obj_item_2.jpg" alt="Система несущих клиновых лесов" >
+                        </div>
+                    </div>    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+            <div class="wedge-forests__full-price full-price">
+                <div class="full-price__row">
+                    <div class="full-price__collumns full-price__collumns_reverse">
+                        <div class="full-price__collumn-left">
+                            <div class="full-price__body">
+                                <div class="full-price__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto nulla est nemo dicta laudantium temporibus rerum. Impedit ipsa voluptate quae voluptatum laboriosam, officiis mollitia totam consectetur natus sequi autem reiciendis dolorem dolor odit harum quaerat accusantium iste voluptates tempore saepe sint? Atque voluptatem reprehenderit ad, repellendus suscipit consequatur eveniet.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quaerat magni magnam veniam inventore ea? Corporis exercitationem recusandae obcaecati blanditiis veniam, sunt pariatur itaque, eveniet autem voluptas reiciendis iusto ea. Illo libero eos sapiente nihil eligendi quas incidunt consectetur, dignissimos, porro voluptatum explicabo! Cum eveniet possimus ipsum doloribus assumenda architecto rem aut, voluptatem provident nulla repellat esse quo fugiat nam ullam laborum ex ratione consequatur? Soluta nam doloribus impedit velit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-price__collumn-right full-price__collumn-right_reverse">
+                            <div class="full-price__subtitle">
+                                    Полный прайс-лист оборудования
+                            </div>
+                            <button class="full-price__priсe priсe" id="btnPriсe">
+                                <svg class="icon-download">
+                                    <use xlink: href="sprite.svg#download"></use>
+                                </svg>
+                            <span class="full-price__price-text">Скачать прайс</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="wedge-forests__specifications specifications-wedge-forests">
+                <div class="specifications-wedge-forests__subtitle">Основные характеристики</div>
+                <div class="specifications-wedge-forests__row">
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">максимальная высота</div>
+                        <div class="specifications-wedge-forests__value">200 м</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                        <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">шаг элементов по вертикали</div>
+                        <div class="specifications-wedge-forests__value">0.5 м</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">шаг стоек по горизонтали</div>
+                        <div class="specifications-wedge-forests__value">0.25 - 3 м</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                        <div class="specifications-wedge-forests__value">38,3 kN</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                        <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">крутящий момент</div>
+                        <div class="specifications-wedge-forests__value">64 kN/cm</div>
+                    </div>
+                    <div class="specifications-wedge-forests__item">
+                        <div class="specifications-wedge-forests__description">нормальная сила</div>
+                        <div class="specifications-wedge-forests__value">33 kN</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wedge-forests__calculation calculation-wedge-forests">
+                <img src="./img/inserts/splash.jpg" alt="">
+                <div class="calculation-wedge-forests__bgr"></div>
+                <div class="calculation-wedge-forests__body">
+                    <div class="calculation-wedge-forests__title title">Бесплатный расчёт комплектации для объектов любой сложности</div>
+                    <button class="calculation-wedge-forests__priсe priсe" id="btnСalсulation">
+                        <svg class="icon-pencil">
+                            <use xlink: href="sprite.svg#pencil"></use>
+                        </svg>
+                        <span class="calculation-wedge-forests__price-text">Рассчитать</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wedge-forests__property property-wedge-forests">
+                <div class="property-wedge-forests__row">
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/1.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Долговечность</div>
+                            <div class="property-wedge-forests__text">Все элементы защищены от корозии методом горячего оценкования с толщеной покрытия 60-80 мк</div>
+                        </div>
+                    </div>
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/2.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Совместимость</div>
+                            <div class="property-wedge-forests__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nulla quia aut modi, maiores molestiae!</div>
+                        </div>
+                    </div>
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/3.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Безопастность</div>
+                            <div class="property-wedge-forests__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias molestias quos cupiditate natus ut, voluptas consectetur doloremque, obcaecati dolorum, recusandae voluptatem facilis necessitatibus et est!</div>
+                        </div>
+                    </div>
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/4.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Универсальность</div>
+                            <div class="property-wedge-forests__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sint exercitationem corporis, aliquam deleniti tenetur a aperiam tempore nobis. Tempora ab, nemo dolorem est dicta eos totam nostrum, aspernatur nesciunt mollitia quos, fuga obcaecati itaque?</div>
+                        </div>
+                    </div>
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/5.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Исключительная жесткость</div>
+                            <div class="property-wedge-forests__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus tenetur esse harum eligendi! Quam quos fugit, dolorem vitae ad incidunt.</div>
+                        </div>
+                    </div>
+                    <div class="property-wedge-forests__item">
+                        <div class="property-wedge-forests__img">
+                            <img src="./img/icons/property/6.svg" alt="">
+                            <div class="property-wedge-forests__bgr"></div>
+                        </div>
+                        <div class="property-wedge-forests__body">
+                            <div class="property-wedge-forests__title">Быстрый монтаж</div>
+                            <div class="property-wedge-forests__text">Кратные и взаимозяменяемые метрические размеры по осям элементов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wedge-forests__vidio">
+                <iframe src="https://www.youtube.com/embed/Mn7HB1AqqTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="wedge-forests__variants variants-wedge-forests">
+                <div class="variants-wedge-forests__top">
+                    <div class="variants-wedge-forests__title">Варианты использования</div>
+                    <div class="variants-wedge-forests__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente ratione impedit inventore, eaque perspiciatis doloremque debitis. Quisquam, voluptatum nihil cupiditate et sint dolore mollitia sed aspernatur doloribus amet, id at expedita unde eveniet eius iure, a ea voluptatibus laboriosam delectus. Recusandae laborum exercitationem adipisci! Fuga nulla dolorem saepe amet aut!</div>
+                </div>
+
+                <div class="variants-wedge-forests__body">
+                    <div class="variants-wedge-forests__items">
+                        <div class="variants-wedge-forests__row">
+                            <div class="variants-wedge-forests__item item-variants ">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Круговые леса</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_1.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variants-wedge-forests__item item-variants">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Выносные консоли</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_2.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variants-wedge-forests__item item-variants">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Свободностоящие леса</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_3.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="variants-wedge-forests__row">
+                            <div class="variants-wedge-forests__item item-variants">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Мостовые пешеходы марши</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_5.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variants-wedge-forests__item item-variants">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Выносные консоли</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_6.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variants-wedge-forests__item item-variants">
+                                <div class="item-variants__closed">
+                                    <div class="item-variants__title">Опалубка мостовых пролетов</div>
+                                    <div class="item-variants__imge">
+                                        <img src="./img/variants/img_7.png" alt="">
+                                    </div>
+                                    <div class="item-variants__bgr"></div>
+                                    <div class="item-variants__btn">
+                                        <a href="" class="catalog__btn-one btn-one">
+                                            <img src="./img/icons/arrow_right.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="item-variants__open">
+                                    <div class="item-variants__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit cum quo corrupti nostrum quasi deleniti rerum minus enim, aut sed iste modi, eveniet est. Aliquam veritatis minus officia, ducimus quo tempore quas? Ad, consectetur nobis pariatur soluta ratione enim ea voluptas error recusandae aperiam aliquid vel dicta? Autem, aliquam.</div>
+                                    <div class="specifications-wedge-forests__row_variants">
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная высота</div>
+                                            <div class="specifications-wedge-forests__value">200 м</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">несущая способность настила</div>
+                                            <div class="specifications-wedge-forests__value">900 кг/м2</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">нормальная сила</div>
+                                            <div class="specifications-wedge-forests__value">33 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">максимальная нагрузка на ось</div>
+                                            <div class="specifications-wedge-forests__value">38,3 kN</div>
+                                        </div>
+                                        <div class="specifications-wedge-forests__item">
+                                            <div class="specifications-wedge-forests__description">изгибающий момент</div>
+                                            <div class="specifications-wedge-forests__value">110 kN/cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ringlock">
+                <div class="container">
+                    <div class="ringlock__row">
+                        <div class="ringlock__collumn-left">
+                            <div class="ringlock__body">
+                                <div class="ringlock__title title">Бесплатный каталог клиновых лесов Vektor RingLock</div> 
+                                <div class="ringlock__text">Подробные технические характеристики несущих лесов, номенклатура и размеры элементов входящих в систему</div>
+                                <div class="ringlock__btn">
+                                    <a href="" class="ringlock__priсe priсe">
+                                        <svg class="icon-download">
+                                            <use xlink: href="sprite.svg#download"></use>
+                                        </svg>
+                                        <span class="ringlock__price-text">Скачать PDF</span>
+                                    </a>
+                                        <span class="ringlock__pretext">или</span>
+                                    <a href="" class="ringlock__btn-all btn-all">
+                                        <span>Заказать печатную версию</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ringlock__image">
+                            <img src="./img/inserts/free_catalog_v2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wedge-forests__objects">
+                <div class="objects">
+                    <div class="objects__body objects__body_reverse">
+                        <div class="objects__title title">Объекты используюшие систему несущих лесов RingLock</div>
+                        <div class="wedge-forests__btn-right">
+                            <div class="objects__namber">17 объектов</div>  
+                            <div class="objects__wrapper-btn">
+                            <a href="" class="objects__btn-all btn-all">
+                            <span>Все объекты</span>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="objects__row objects__row_hidden">
+                        <div class="objects__collumns">
+                            <div class="objects__collumn objects__collumn_hidden _anim-items">
+                                <div class="objects__item-object item-object">
+                                    <div class="item-object__row">
+                                        <div class="item-object__image">
+                                            <img src="./img/objects/obj_1.jpg" alt="объект">
+                                        </div>
+                                        <div class="item-object__bgr"></div>
+                                        <div class="item-object__body">
+                                            <div class="item-object__btn-categories">
+                                                <a href="" >
+                                                    <span>г. владивосток</span>
+                                                </a>
+                                                <a href="">
+                                                    <span>промышленные</span>
+                                                </a>
+                                            </div>
+                                            <div class="item-object__text">Искусственная горка для чемпионата России по мотогонкам</div>
+                                        </div>
+                                        <a href="" class="item-object__btn-next btn-next">
+                                            <span>Посмотреть объект</span>
+                                            <svg class="icon-arrow icon-arrow_white">
+                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects__collumns">
+                            <div class="objects__collumn objects__collumn_hidden _anim-items">
+                                <div class="objects__item-object item-object">
+                                    <div class="item-object__row">
+                                        <div class="item-object__image">
+                                            <img src="./img/objects/obj_2.jpg" alt="объект">
+                                        </div>
+                                        <div class="item-object__bgr"></div>
+                                        <div class="item-object__body">
+                                            <div class="item-object__btn-categories">
+                                                <a href="" >
+                                                    <span>г. владивосток</span>
+                                                </a>
+                                                <a href="">
+                                                    <span>промышленные</span>
+                                                </a>
+                                            </div>
+                                            <div class="item-object__text">Многопрофильный медецинский центр</div>
+                                        </div>
+                                        <a href="" class="item-object__btn-next btn-next">
+                                            <span>Посмотреть объект</span>
+                                            <svg class="icon-arrow icon-arrow_white">
+                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="wedge-forests__btnTwo btnTwo">
+                    <a href="" class="wedge-forests__previous previous">
+                        <img src="./img/icons/arrow_left.svg" alt="">
+                    </a>
+                    <a href="" class="wedge-forests__next next">
+                        <img src="./img/icons/arrow_right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="wedge-forests__feedback">
+                <div class="feedback">
+                    <div class="feedback__title title"> 
+                        <p>Есть вопросы по продукции?</p>
+                        <p>Мы перезвоним!</p>
+                    </div>
+                    <div class="feedback__form">
+                        <div class="feedback__row">
+                            <div class="feedback__collumn">
+                                <div class="feedback__subtitle subtitle-feedback">ваше имя</div>
+                                <input class="feedback__data-input data-input-feedback" type="text">
+                            </div>
+                            <div class="feedback__collumn">
+                                <div class="feedback__subtitle subtitle-feedback">номер телефона</div>
+                                <input class="feedback__data-input  data-input-feedback" type="tel">
+                            </div>
+                            <div class="feedback__collumn">
+                                <div class="feedback__subtitle subtitle-feedback">ваш город</div>
+                                <input class="feedback__data-input  data-input-feedback" type="text">
+                            </div>
+                            <a href="" class="feedback__priсe priсe">
+                                <span class="feedback__price-text">Отправить</span>
+                            </a>
+                        </div>
+                        <div class="feedback__checkbox checkbox-feedback">
+                            <input class="feedback__
+                            agreement" type="checkbox" name="" id="">
+                            <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                        </div>
+                    </div>
+                    <div class="feedback__free">
+                        <div class="feedback__free-call">
+                            <div class="feedback__subtitle">звоните по телефону</div>
+                            <div class="feedback__telephone">
+                                <p><img src="./img/icons/phone.svg" alt="">
+                                <a href="tel:78002501712">8(800) 250-17-12</a></p>
+                                <p><span>Звонок по России бесплатный</span></p>
+                            </div>
+                        </div>
+                        <div class="feedback__email">
+                            <div class="feedback__subtitle">пишите на почту</div>
+                            <img src="./img/icons/envelope.svg" alt="">
+                            <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__columns">
+                    <div class="footer__menu">
+                        <div class="footer__text">
+                            <div class="footer__column">
+                                <div class="footer__equipment">
+                                    <div class="footer__title">Оборудование</div>
+                                    <div class="footer__text-menu">
+                                        <a href="#">Опалубка перекрытий</a>
+                                        <a href="#">Стеновая опалубка</a>
+                                        <a href="#">Специальная опалубка</a>
+                                        <a href="#">Несущие леса</a>
+                                        <a href="#">Подъемное оборудование</a>
+                                        <a href="#">Бетонанасосы и стрелы</a>
+                                        <a href="#">Бетонозаводы</a>
+                                    </div>
+                                </div>
+                                <div class="footer__company">
+                                    <div class="footer__title">Компания</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Филиалы</a>
+                                        <a href="">Объекты</a>
+                                        <a href="">Вакансии</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__column">
+                                <div class="footer__buyers">
+                                    <div class="footer__title">Покупателям</div>
+                                    <div class="footer__text-menu">
+                                        <a href="">Инженерное сопровождение</a>
+                                        <a href="">Шефмонтаж</a>
+                                        <a href="">Доставка</a>
+                                        <a href="">Гарантия и сервис</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__body">
+                            <div class="footer__office">центральный офис</div>
+                            <div class="footer__addres">г. Москва, Пресненская наб., д.12. оф.Е8</div>
+                            <div class="footer__telephone">
+                                <svg class="icon-phone">
+                                    <use xlink: href="sprite.svg#phone"></use>
+                                </svg>
+                                <a href="tel:78002501712">8(800) 250-17-12</a>
+                            </div>
+                            <div class="footer__email">
+                                <svg class="icon-email">
+                                    <use xlink: href="sprite.svg#email"></use>
+                                </svg>
+                                <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                            </div>
+                            <div class="footer__time">
+                                <svg class="icon-clock">
+                                    <use xlink: href="sprite.svg#clock"></use>
+                                </svg>
+                                <span>с 09:00 по 18:00</span>
+                            </div>
+                           <a href="/contacts.html" class="footer__btn-next btn-next">
+                                <span>Филиалы компании</span>
+                                <svg class="icon-arrow icon-arrow_gray">
+                                    <use xlink: href="sprite.svg#arr-right"></use>
+                                </svg>
+                            </a>
+                            <div class="footer__copyright footer__copyright_media">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</div>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/burger-menu.js"></script>
+<script src="js/anim_scroll.js"></script>
+<script src="js/pop-up-window.js"></script>
+
+<script>
+// /////////////////////////////////////////////////////////////////////////скачать прайс 
+// var btn = document.getElementById('btnPriсe');
+    
+//     var popUpWindow = document.getElementById('popUpWindow');
+//     var btnClose = document.getElementById('btnClose');
+//     btn.onclick = function () {
+//     popUpWindow.style.display = "block";
+//     }
+//     btnClose.onclick = function () {
+//     popUpWindow.style.display = "none";
+//     }
+//     window.onclick = function(event) {
+//     if (event.target == popUpWindow) {
+//     popUpWindow.style.display = "none";
+//     }
+//     }
+
+//     /////////////////////////////////////////////////////////////////////////скачать прайс header
+//     var btn_header = document.getElementById('btnPriсe_header');
+//     btn_header.onclick = function () {
+//     popUpWindow.style.display = "block";
+//     }
+//     btnClose.onclick = function () {
+//     popUpWindow.style.display = "none";
+//     }
+//     window.onclick = function(event) {
+//     if (event.target == popUpWindow) {
+//     popUpWindow.style.display = "none";
+//     }
+//     document.body.classList.toggle('_lock');
+//     }
+    // //////////////////////////////////////////////////////////////отправить рассчет
+    // var btnСalсulation = document.getElementById('btnСalсulation');
+    // var popUpWindowСalculation = document.getElementById('popUpWindowСalculation');
+    // var btnCloseСalculation = document.getElementById('btnCloseСalculation');
+    // btnСalсulation.onclick = function () {
+    // popUpWindowСalculation.style.display = "block";
+    // }
+    // btnCloseСalculation.onclick = function () {
+    // popUpWindowСalculation.style.display = "none";
+    // }
+    // window.onclick = function(e) {
+    // if (event.target == popUpWindowСalculation) {
+    // popUpWindowСalculation.style.display = "none";
+    // }
+    // }
+//////////////////////////////////////////////////////////////развернуть варианты
+let btns = document.querySelectorAll('.catalog__btn-one');
+    for (let i = 0; i < btns.length; i++) {
+	btns[i].addEventListener('click', job_btn_one_click);
+    }
+
+    function job_btn_one_click(e) {
+	e.preventDefault();
+	let itemVariants__open = this.closest('.item-variants').querySelector('.item-variants__open');
+	itemVariants__open.style.display = window.getComputedStyle(itemVariants__open).display === 'block' ? 'none' : 'block';
+    }
+    /////////////////////////////////////////////////подключение слайдера
+    const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+            el: '.swiper-pagination',
+        },
+            navigation: {
+            nextEl: '.full-screen-image__previous',
+            prevEl: '.full-screen-image__next',
+        },
+    });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Vektor</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-type" content="text/html" ; charset="UTF-8" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="pop-up-window-price">
+        <div class="pop-up-window fade" id="popUpWindow">
+            <div class="container">
+                <div class="pop-up-window__body pop-up-window__body-price">
+                    <div class="pop-up-window__btn-close btn-close" id="btnClose"></div>
+                    <div class="pop-up-window__title title">Скачать прайс-лист</div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">ваше имя</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="text">
+                    </div>
+                    <div class="pop-up-window__row">
+                    <div class="pop-up-window__subtitle subtitle-feedback">номер телефона</div>
+                    <input class="pop-up-window__data-input data-input-feedback" type="tel">
+                    </div>
+                    <div class="pop-up-window__row">
+                        <div class="pop-up-window__subtitle subtitle-feedback">e-mail</div>
+                        <input class="pop-up-window__data-input data-input-feedback" type="email">
+                    </div>
+                    <div class="pop-up-window__checkbox checkbox-feedback">
+                        <input class="pop-up-window__agreement" type="checkbox" name="" id="">
+                        <span>Я ознакомился и даю согласие на обработку моих персональных данных в соответствии с <a href="">политикой конфиденциальности</a> </span>
+                    </div>
+                    <a href="" class="pop-up-window__priсe priсe">
+                        <span class="pop-up-window__price-text">Отправить</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="header">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__collumn-left">
+                        <div class="header__logo">
+                            <a href="">
+                                <img src="./img/logo/logo.png" alt="логотип-vektor">
+                            </a>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li>
+                                    <a href="/catalog.html"class="pop-up-menu-catalog">Каталог</a>
+                                    <div class="header__sub-menu-list">
+                                        <div class="container">
+                                            <div class="catalog-menu">
+                                                <div class="catalog-menu__body">
+                                                    <div class="catalog-menu__row">
+                                                        <div class="catalog-menu__collumn">
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="/catalog-subcategory.html" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Опалубочные системы</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                    <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Бетонораздаточные стрелы</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Мачтовые подъемники</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Крупнощитовая опалубка</a>
+                                                                    <a href="" class="catalog-menu__link">Опалубка перекрытий</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    <a href="" class="catalog-menu__link">Мелкощитовая опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__collumn">
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Строительные леса<span>
+                                                                            <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                                                            </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="/wedge-forests.html" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Бетонозаводы</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <div class="catalog-menu__text">
+                                                                        <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Строительное оборудование</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <div class="catalog-menu__text">
+                                                                        <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__collumn">
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Оснастка и расходники<span>
+                                                                            <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                                                            </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Башенные краны</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <div class="catalog-menu__text">
+                                                                        <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="catalog-menu__collumn">
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Бетонанасосы<span>
+                                                                            <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                                <use xlink: href="sprite.svg#arr-right"></use>
+                                                                            </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                    <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog-menu__item">
+                                                                <div class="catalog-menu__title">
+                                                                    <a href="" class="catalog-menu__btn-next btn-next">
+                                                                        <span>Фасадные подъемники</span>
+                                                                        <svg class="icon-arrow icon-arrow_catalog-menu">
+                                                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="catalog-menu__text">
+                                                                    <div class="catalog-menu__text">
+                                                                        <a href="" class="catalog-menu__link">Несущие клиновые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Хомутовые леса</a>
+                                                                        <a href="" class="catalog-menu__link">Ригельная опалубка</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="catalog-menu__price">
+                                                        <svg class="icon-download icon-download_red">
+                                                            <use xlink: href="sprite.svg#download"></use>
+                                                        </svg>
+                                                        <span class="catalog-menu__text">Полный прайс-лист оборудования</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="/completed-objects.html">Объекты</a>
+                                </li>
+                                <li>
+                                    <a href="/about-company.html">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="/contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__collumn-right">
+                        <div class="header__price">
+                            <a href="##" id="btnPriсe_header">
+                                <svg class="icon-download icon-download_red">
+                                    <use xlink: href="sprite.svg#download"></use>
+                                </svg>
+                                <span class="header__text">Скачать прайс</span>
+                            </a>
+                        </div>
+                        <div class="header__telephone">
+                            <div class="header__telephone-top">
+                                <a href="tel:78002501712">
+                                    <svg class="icon-phone icon-phone_black">
+                                        <use xlink: href="sprite.svg#phone"></use>
+                                    </svg>                                  
+                                    <span>8(800) 250-17-12</span>
+                                </a>
+                            </div>
+                            <div class="header__telephone-bottom">Заказать звонок</div>
+                        </div>
+                    </div>
+                    <div class="header__burger-icon">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+   <div class="slider">
+        <div class="container">
+            <div class="slider__swiper swiper">
+                <div class="slider__row">
+                    <div class="slider__collumns">
+                        <div class="slider__column slider__column-left">
+                            <div class="slider__text _anim-items">
+                                <p>г.Владивосток</p>
+                                <p>Угольный терминал</p>
+                                <p>ПАО Порт-Восточный</p>
+                            </div>
+                            <a href="" class="slider__btn _anim-items">Подробнее</a>
+                            <div class="slider__scrolling">
+                                <img src="./img/icons/scroll.svg" alt="">
+                                <span>Скролить вниз</span>
+                            </div>
+                         </div>
+                        <div class="slider__column slider__column-right">
+                            <div class="slider__object">
+                                <div class="slider__list">
+                                    <p>Жилой комплекс "Аркада-Арт"</p>
+                                    <p>Угольный терминал ПАО Порт-Восточный</p>
+                                    <p>Жилой комплекс "Аркада-Арт"</p>
+                                    <p>Угольный терминал ПАО Порт-Восточный</p>
+                                    <p>Угольный терминал ПАО Порт-Восточный</p>
+                                </div>
+                            </div>
+                            <div class="slider__btnTwo btnTwo">
+                                <a href="" class="slider__previous previous">
+                                    <svg class="icon-arrow icon-arrow_left">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                                <a href="" class="slider__next next">
+                                    <svg class="icon-arrow">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__swiper-wrapper swiper-wrapper">
+                    <div class="slider__swiper-slide swiper-slide">
+                        <div class="slider__imge">
+                            <img src="./img/sliders/img_1.jpg" alt="выполненный объект">
+                        </div>
+                    </div>
+  
+                    <div class="slider__swiper-slide swiper-slide">
+                        <div class="slider__imge">
+                            <img src="./img/sliders/img_2.jpg" alt="выполненный объект">
+                        </div>
+                    </div> 
+                </div>
+ 
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+
+   <div class="equipment">
+            <div class="container">
+                <div class="equipment__title">
+                    <div class="equipment__text _anim-items">Оборудование</div>
+                    <div class="equipment__btnTwo btnTwo">
+                        <a href="" class="equipment__previous previous">
+                            <svg class="icon-arrow icon-arrow_left">
+                                <use xlink: href="sprite.svg#arr-right"></use>
+                            </svg>
+                        </a>
+                        <a href="" class="equipment__next next">
+                            <svg class="icon-arrow">
+                                <use xlink: href="sprite.svg#arr-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="equipment__row">
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big">
+                                <div class="equipment__icon">
+                                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M42.9355 9.74755C43.5152 9.74755 43.9895 9.27328 44 8.69363V2.06446C44 1.47426 43.5257 1 42.9355 1H36.3064C35.7267 1 35.2525 1.47426 35.2525 2.06446V4.37255H9.74755V2.06446C9.74755 1.4848 9.27328 1.01054 8.69363 1H2.06446C1.4848 1 1.01054 1.47426 1 2.06446V8.69363C1 9.27328 1.47426 9.74755 2.06446 9.74755H4.37255V35.2525H2.06446C1.4848 35.2525 1.01054 35.7267 1 36.3064V42.9355C1 43.5152 1.47426 43.9895 2.06446 44H8.69363C9.27328 44 9.74755 43.5257 9.74755 42.9355V40.6275H35.2525V42.9355C35.2525 43.5152 35.7267 43.9895 36.3064 44H42.9355C43.5152 44 43.9895 43.5257 44 42.9355V36.3064C44 35.7267 43.5257 35.2525 42.9355 35.2525H40.6275V9.74755H42.9355ZM3.10784 7.63971V3.10784H7.63971V7.63971H3.10784ZM7.63971 41.8922H3.10784V37.3603H7.63971V41.8922ZM35.2525 36.3064V38.5196H9.74755V36.3064C9.74755 35.7267 9.27328 35.2525 8.69363 35.2525H6.48039V9.74755H8.69363C9.27328 9.74755 9.74755 9.27328 9.74755 8.69363V6.48039H35.2525V8.69363C35.2525 9.27328 35.7267 9.74755 36.3064 9.74755H38.5196V35.2525H36.3064C35.7267 35.2525 35.2525 35.7267 35.2525 36.3064ZM41.8922 37.3603V41.8922H37.3603V37.3603H41.8922ZM37.3603 7.63971V3.10784H41.8922V7.63971H37.3603Z" fill="#D4321E" stroke="#F2F2F3" stroke-width="0.2"/>
+                                        <mask id="path-2-inside-1" fill="white">
+                                        <rect x="10" y="10" width="25" height="25" rx="1"/>
+                                        </mask>
+                                        <rect x="10" y="10" width="25" height="25" rx="1" stroke="#D4321E" stroke-width="4" mask="url(#path-2-inside-1)"/>
+                                        </svg>
+                                </div>
+                                <div class="equipment__subtitle">Опалубка</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big">
+                                <div class="equipment__icon">
+                                    <svg class="icon-2" width="66" height="34" viewBox="0 0 66 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.8796 9.19922H14.2554V27.2849H6.19816C5.42484 27.2849 4.72082 26.8391 4.39018 26.1401L1.86208 20.7949C1.3871 19.7907 1.82155 18.5918 2.8296 18.125L7.80734 15.8198C8.25342 15.6132 8.60779 15.2496 8.8028 14.7983L10.9617 9.80254C11.1199 9.43633 11.4807 9.19922 11.8796 9.19922Z" stroke="#D4321E" stroke-width="1.8"/>
+                                        <path d="M14.2552 27.2861H13.3552V28.1861H14.2552V27.2861ZM30.8343 0.1C30.3373 0.1 29.9343 0.502944 29.9343 1C29.9343 1.49706 30.3373 1.9 30.8343 1.9V0.1ZM25.5448 1.9C26.0418 1.9 26.4448 1.49706 26.4448 1C26.4448 0.502944 26.0418 0.1 25.5448 0.1V1.9ZM58.5134 9V25.2861H60.3134V9H58.5134ZM57.4134 26.3861H14.2552V28.1861H57.4134V26.3861ZM15.1552 27.2861V3H13.3552V27.2861H15.1552ZM30.8343 1.9H51.4134V0.1H30.8343V1.9ZM16.2552 1.9H25.5448V0.1H16.2552V1.9ZM58.5134 25.2861C58.5134 25.8936 58.0209 26.3861 57.4134 26.3861V28.1861C59.015 28.1861 60.3134 26.8877 60.3134 25.2861H58.5134ZM60.3134 9C60.3134 4.08467 56.3288 0.1 51.4134 0.1V1.9C55.3346 1.9 58.5134 5.07878 58.5134 9H60.3134ZM15.1552 3C15.1552 2.39249 15.6477 1.9 16.2552 1.9V0.1C14.6536 0.1 13.3552 1.39838 13.3552 3H15.1552Z" fill="#D4321E"/>
+                                        <path d="M14.2552 23.6914V22.7914H13.3552V23.6914H14.2552ZM59.4134 23.6914H60.3134V22.7914H59.4134V23.6914ZM14.2552 27.2861H13.3552V28.1861H14.2552V27.2861ZM54.8635 33.4225C55.215 33.774 55.7848 33.774 56.1363 33.4225C56.4877 33.071 56.4877 32.5012 56.1363 32.1497L54.8635 33.4225ZM14.2552 24.5914H59.4134V22.7914H14.2552V24.5914ZM58.5134 23.6914V25.2861H60.3134V23.6914H58.5134ZM15.1552 27.2861V23.6914H13.3552V27.2861H15.1552ZM57.4134 26.3861H49.9999V28.1861H57.4134V26.3861ZM49.9999 26.3861H14.2552V28.1861H49.9999V26.3861ZM49.3635 27.9225L54.8635 33.4225L56.1363 32.1497L50.6363 26.6497L49.3635 27.9225ZM58.5134 25.2861C58.5134 25.8936 58.0209 26.3861 57.4134 26.3861V28.1861C59.015 28.1861 60.3134 26.8877 60.3134 25.2861H58.5134Z" fill="#D4321E"/>
+                                        <path d="M59.4132 20.0977H63.0079C64.0005 20.0977 64.8052 20.9024 64.8052 21.895V21.895C64.8052 22.8876 64.0005 23.6923 63.0079 23.6923H59.4132V20.0977Z" stroke="#D4321E" stroke-width="1.8"/>
+                                        <circle cx="28.5" cy="27.5" r="5.6" fill="#F2F2F3" stroke="#D4321E" stroke-width="1.8"/>
+                                        <circle cx="28.5" cy="27.5" r="1.6" stroke="#D4321E" stroke-width="1.8"/>
+                                        <rect x="38" y="9" width="13.0432" height="1.70128" rx="0.5" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <rect x="52.8579" y="9" width="1.70128" height="1.70128" rx="0.5" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        </svg>
+                                </div>
+                                <div class="equipment__subtitle">Бетононасосы</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big">
+                                <div class="equipment__icon">
+                                    <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M50.9266 12.0858L49.2638 6.86663C49.1792 6.63387 48.9508 6.34071 48.549 6.34421H43.7976C43.3832 6.34421 43.0474 6.67998 43.0474 7.09438C43.0474 7.50877 43.3832 7.84454 43.7976 7.84454H46.7378L42.5476 12.0348L38.3575 7.84454H40.2968C40.7112 7.84454 41.0469 7.50877 41.0469 7.09438C41.0469 6.67998 40.7112 6.34421 40.2968 6.34421H36.6631L15.7645 0.0307181C15.5664 -0.0270947 15.3185 -0.00929075 15.1153 0.135741L7.18088 5.72877C6.96003 5.20926 6.44462 4.84388 5.84539 4.84388H1.45032C0.650643 4.84388 0 5.49452 0 6.2942V13.8959C0 14.6955 0.650643 15.3462 1.45032 15.3462H5.84539C6.64506 15.3462 7.29571 14.6955 7.29571 13.8959V13.8459H11.7967V35.7833C11.7967 36.1977 12.1325 36.5335 12.5469 36.5335C12.9613 36.5335 13.297 36.1977 13.297 35.7833V32.9167L17.4873 37.1069L13.297 41.2971V39.2842C13.297 38.8698 12.9613 38.534 12.5469 38.534C12.1325 38.534 11.7967 38.8698 11.7967 39.2842V42.688L6.48813 45.9395C6.06094 46.2013 5.79538 46.6751 5.79538 47.1762V49.7597C5.79538 50.5594 6.44602 51.21 7.2457 51.21H23.8494C24.649 51.21 25.2997 50.5594 25.2997 49.7597V47.1762C25.2997 46.6751 25.0342 46.2013 24.6068 45.9395L19.2984 42.688V13.8459H29.8007V15.7759C29.8007 16.5756 30.4513 17.2262 31.251 17.2262H33.9602V26.729C33.9541 27.6142 34.7717 28.2912 35.6503 28.1793V34.0788C35.6503 34.7661 36.102 35.3608 36.7742 35.5588C37.3626 35.7319 37.7508 36.2826 37.7181 36.898C37.6816 37.586 37.0908 38.1444 36.4001 38.1444H36.3965C35.9601 38.1432 35.5528 37.9263 35.3072 37.5642C35.0744 37.2211 34.6078 37.1318 34.2653 37.3644C33.9224 37.597 33.833 38.0635 34.0655 38.4064C34.5897 39.1792 35.4596 39.6422 36.3924 39.6447H36.3999C37.8754 39.6447 39.1381 38.4498 39.2162 36.9777C39.286 35.6651 38.456 34.4898 37.1978 34.1195C37.1708 34.1115 37.1505 34.0941 37.1505 34.0789V28.1794C38.0143 28.2491 38.8473 27.6529 38.8407 26.7291V17.2263H41.8473C42.647 17.2263 43.2976 16.5757 43.2976 15.776V13.846H49.6398C50.0691 13.846 50.4767 13.639 50.73 13.2924C50.9832 12.9459 51.057 12.4947 50.9266 12.0858ZM5.79538 13.8459H1.50033V6.34421H5.79538V13.8459ZM40.7365 12.3455H32.3619L36.5492 8.15831L40.7365 12.3455ZM31.475 6.34421H19.0233L16.948 1.95564L31.475 6.34421ZM15.5475 2.50366L17.3636 6.34421H13.7314L15.5475 2.50366ZM13.6518 3.00297L12.0718 6.34421H8.91186L13.6518 3.00297ZM7.29571 7.84454H10.7358L7.29571 11.2846V7.84454ZM8.35674 12.3455L12.547 8.15531L16.7372 12.3455H8.35674ZM13.297 17.2906V13.8459H16.7384L13.297 17.2906ZM17.798 14.908V23.293L13.6075 19.1025L17.798 14.908ZM13.297 20.914L17.4873 25.1042L13.297 29.2945V20.914ZM13.6079 31.1056L17.7981 26.9153V35.2957L13.6079 31.1056ZM17.798 38.918V42.358H14.358L17.798 38.918ZM23.7993 47.2042V49.7097H7.29571V47.2042L12.7583 43.8584H18.3366L23.7993 47.2042ZM18.5468 12.0333L14.3581 7.84454H22.7355L18.5468 12.0333ZM20.3564 12.3455L24.548 8.15391L28.7396 12.3455H20.3564ZM30.5508 12.0348L26.3606 7.84454H34.741L30.5508 12.0348ZM37.3405 26.679H35.4605V17.2262H37.3405V26.679ZM41.7975 15.7259H31.301V13.8459H41.7974V15.7259H41.7975ZM44.3588 12.3455L48.2082 8.49608L49.4347 12.3455H44.3588Z" fill="#D4321E"/>
+                                        </svg>
+                                </div>
+                                <div class="equipment__subtitle">Подъемное оборудование</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big" >
+                                <div class="equipment__icon">
+                                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M42.9355 9.74755C43.5152 9.74755 43.9895 9.27328 44 8.69363V2.06446C44 1.47426 43.5257 1 42.9355 1H36.3064C35.7267 1 35.2525 1.47426 35.2525 2.06446V4.37255H9.74755V2.06446C9.74755 1.4848 9.27328 1.01054 8.69363 1H2.06446C1.4848 1 1.01054 1.47426 1 2.06446V8.69363C1 9.27328 1.47426 9.74755 2.06446 9.74755H4.37255V35.2525H2.06446C1.4848 35.2525 1.01054 35.7267 1 36.3064V42.9355C1 43.5152 1.47426 43.9895 2.06446 44H8.69363C9.27328 44 9.74755 43.5257 9.74755 42.9355V40.6275H35.2525V42.9355C35.2525 43.5152 35.7267 43.9895 36.3064 44H42.9355C43.5152 44 43.9895 43.5257 44 42.9355V36.3064C44 35.7267 43.5257 35.2525 42.9355 35.2525H40.6275V9.74755H42.9355ZM3.10784 7.63971V3.10784H7.63971V7.63971H3.10784ZM7.63971 41.8922H3.10784V37.3603H7.63971V41.8922ZM35.2525 36.3064V38.5196H9.74755V36.3064C9.74755 35.7267 9.27328 35.2525 8.69363 35.2525H6.48039V9.74755H8.69363C9.27328 9.74755 9.74755 9.27328 9.74755 8.69363V6.48039H35.2525V8.69363C35.2525 9.27328 35.7267 9.74755 36.3064 9.74755H38.5196V35.2525H36.3064C35.7267 35.2525 35.2525 35.7267 35.2525 36.3064ZM41.8922 37.3603V41.8922H37.3603V37.3603H41.8922ZM37.3603 7.63971V3.10784H41.8922V7.63971H37.3603Z" fill="#D4321E" stroke="#F2F2F3" stroke-width="0.2"/>
+                                        <mask id="path-2-inside-1" fill="white">
+                                        <rect x="10" y="10" width="25" height="25" rx="1"/>
+                                        </mask>
+                                        <rect x="10" y="10" width="25" height="25" rx="1" stroke="#D4321E" stroke-width="4" mask="url(#path-2-inside-1)"/>
+                                        </svg>
+                                        
+                                </div>
+                                <div class="equipment__subtitle">Строительные леса</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big">
+                                <div class="equipment__icon">
+                                    <svg width="57" height="50" viewBox="0 0 57 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.00745 1.50029C1.00771 1.22404 1.23198 1.00036 1.50823 1.00077C7.57294 1.00984 13.6377 1.00788 19.7034 1.00166C19.9794 1.00137 20.2034 1.22471 20.2039 1.50068C20.2165 8.70732 20.1959 15.915 20.2136 23.1216C20.214 23.2861 20.2954 23.4398 20.431 23.5329C23.8874 25.9045 27.2955 28.3453 30.7384 30.7362C34.4847 33.3561 38.2263 35.9829 41.9726 38.604C42.9219 39.2358 43.4606 40.4176 43.2916 41.5495C43.1226 43.0625 41.6709 44.2908 40.1465 44.1876C39.2925 44.1899 38.5609 43.7113 37.9054 43.219C35.7612 41.7068 33.6045 40.2126 31.4608 38.7004C31.1284 38.4659 30.6691 38.7045 30.6698 39.1113C30.6744 41.6568 30.6591 44.2023 30.6748 46.7478C30.6765 47.0225 30.9 47.2441 31.1748 47.2439C36.364 47.2401 41.5532 47.244 46.7424 47.2422C47.0184 47.2421 47.2421 47.0184 47.2421 46.7424C47.2428 43.2969 47.2402 39.8523 47.2427 36.4069C47.2429 36.1317 47.0207 35.9079 46.7454 35.9071C45.6242 35.9036 44.5035 35.9082 43.3823 35.9061C43.1088 35.9055 42.8864 35.6849 42.8829 35.4114C42.8795 35.1496 42.8768 34.8876 42.8791 34.6257C42.8815 34.3556 43.1048 34.1427 43.375 34.1445C45.0732 34.156 46.7721 34.1574 48.4703 34.1442C48.747 34.142 48.9732 34.3646 48.9748 34.6412C48.9986 38.676 48.9822 42.7108 48.9828 46.7447C48.9829 47.0184 49.2031 47.2413 49.4769 47.2425C50.0175 47.245 50.5584 47.2425 51.0994 47.2423C51.3765 47.2423 51.6016 47.0178 51.6014 46.7407C51.5961 40.6783 51.5932 34.6158 51.6022 28.5533C51.6026 28.2783 51.8252 28.0552 52.1002 28.0552C52.9342 28.0551 53.7678 28.0611 54.6012 28.054C54.8736 28.0517 55.0925 27.83 55.0932 27.5576C55.099 25.2697 55.0912 22.9819 55.0961 20.694C55.0967 20.4169 54.8721 20.192 54.595 20.1925C45.6236 20.2078 36.6523 20.1945 27.6799 20.1993C27.4018 20.1994 27.1773 20.4265 27.1792 20.7046C27.1848 21.5351 27.183 22.366 27.1794 23.1966C27.1782 23.4695 26.9582 23.6909 26.6853 23.6918C26.4369 23.6927 26.1884 23.6925 25.9402 23.693C25.6638 23.6934 25.438 23.4708 25.437 23.1944C25.4321 21.7821 25.4428 20.3698 25.4327 18.9574C25.4307 18.6791 25.6555 18.4518 25.9339 18.4519C36.0737 18.455 46.2125 18.4519 56.3513 18.4539C56.6277 18.454 56.8516 18.6783 56.8512 18.9547C56.8462 22.4014 56.8426 25.8491 56.8517 29.2959C56.8524 29.5707 56.6313 29.7947 56.3565 29.7961C55.522 29.8001 54.6876 29.7953 53.8531 29.7952C53.5778 29.7952 53.355 30.0185 53.3546 30.2937C53.3473 36.3625 53.362 42.4314 53.3485 48.5001C53.3479 48.7762 53.1236 48.9995 52.8475 48.9989C41.0938 48.9745 29.3412 48.9954 17.5875 48.9887C12.2281 48.9931 6.8686 48.9804 1.50811 48.9941C1.23234 48.9948 1.00798 48.7722 1.0069 48.4964C0.993317 45.0459 1.00923 41.5945 1.00132 38.1439C1.00069 37.8675 1.22418 37.643 1.50053 37.643C1.75251 37.6431 2.00454 37.6434 2.25672 37.6432C2.53424 37.6431 2.75953 37.8682 2.75881 38.1458C2.7514 41.0099 2.75812 43.875 2.75616 46.7401C2.75597 47.0161 2.97938 47.2401 3.25539 47.2405C8.1522 47.2478 13.05 47.2374 17.9478 47.2446C18.2237 47.245 18.4479 47.0219 18.4485 46.746C18.4552 43.8777 18.4502 41.0102 18.4505 38.1419C18.4505 37.8654 18.675 37.6415 18.9514 37.6414C19.2038 37.6412 19.4563 37.6407 19.7087 37.6404C19.9852 37.64 20.2093 37.8645 20.2088 38.141C20.204 41.0064 20.2099 43.8719 20.206 46.7382C20.2056 47.0136 20.4279 47.2376 20.7034 47.2388C23.2744 47.2499 25.8446 47.2392 28.4148 47.2414C28.6918 47.2416 28.9163 47.0169 28.9157 46.7399C28.9091 43.5528 28.9183 40.3658 28.9129 37.1797C28.9126 37.0168 28.8329 36.8642 28.6993 36.7708C26.1287 34.974 23.5647 33.1697 20.9926 31.3777C20.6619 31.1474 20.2089 31.3831 20.2079 31.786C20.2057 32.638 20.2053 33.4902 20.2103 34.3419C20.2113 34.5065 20.1314 34.6612 19.9965 34.7555C16.9546 36.8819 13.925 39.0272 10.8682 41.1326C10.6954 41.2516 10.4668 41.2499 10.2956 41.1286C7.28237 38.9932 4.25038 36.8836 1.21895 34.7745C1.08462 34.681 1.00453 34.5277 1.00451 34.3641C1.00332 23.4088 0.996883 12.4545 1.00745 1.50029ZM3.25713 2.75666C2.98 2.75617 2.75532 2.98113 2.7557 3.25827C2.75726 4.37758 2.75328 5.49688 2.7562 6.61619C2.75691 6.89164 2.98077 7.11416 3.25621 7.1139C6.99178 7.11039 10.7265 7.11398 14.462 7.11239C14.7394 7.11227 14.9639 7.33796 14.9633 7.61536C14.9629 7.86171 14.9629 8.10813 14.9633 8.35469C14.9636 8.63111 14.7398 8.85552 14.4634 8.85566C10.7285 8.85757 6.99272 8.85757 3.25686 8.85566C2.98072 8.85552 2.75673 9.07925 2.7566 9.35539C2.75364 15.3564 2.75683 21.3564 2.75572 27.3574C2.7667 29.3976 2.73626 31.4389 2.76819 33.4782C2.77024 33.6093 2.82268 33.736 2.92445 33.8186C3.14302 33.9962 3.39029 34.1383 3.61771 34.3054C5.81577 35.8468 8.01723 37.3836 10.2119 38.9295C10.3742 39.0238 10.5694 39.2496 10.7493 39.1086C10.7815 39.0833 10.8106 39.0537 10.8441 39.0301C13.307 37.2952 15.7855 35.5821 18.2438 33.8409C18.3758 33.7474 18.4543 33.5959 18.4544 33.4342C18.4562 31.7616 18.4404 30.089 18.4542 28.4177C18.4575 28.0172 18.9079 27.7864 19.2364 28.0156C25.948 32.6999 32.6477 37.4012 39.3526 42.0951C39.6804 42.34 40.0887 42.5181 40.5061 42.4217C41.2852 42.3037 41.7945 41.3771 41.4792 40.6546C41.3215 40.1976 40.869 39.9741 40.5027 39.711C36.2166 36.7009 31.9191 33.7066 27.6342 30.6953C26.1415 29.6245 22.9509 27.3968 22.9319 27.3836C22.9313 27.3831 22.9323 27.3839 22.9317 27.3835C22.9138 27.3708 18.6712 24.3816 16.1636 22.6716C15.9295 22.5119 15.8743 22.1904 16.0367 21.9581C16.1806 21.7523 16.3226 21.5451 16.4668 21.3395C16.6268 21.1113 16.9434 21.0654 17.169 21.2291C17.3318 21.3473 17.4958 21.464 17.6604 21.5799C17.9911 21.8129 18.4481 21.575 18.4486 21.1704C18.4562 15.1996 18.448 9.22969 18.4525 3.25887C18.4527 2.98238 18.2285 2.75819 17.952 2.75842C13.0534 2.76259 8.15574 2.76541 3.25713 2.75666Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M9.36221 13.2261C9.08701 13.2261 8.86274 13.004 8.86014 12.7288C8.85764 12.4647 8.8561 12.2007 8.861 11.9366C8.86598 11.6685 9.08995 11.4603 9.35811 11.4636C10.1863 11.4739 11.0144 11.4781 11.8426 11.4661C12.1145 11.4621 12.3416 11.6742 12.3456 11.9461C12.3494 12.2043 12.3487 12.4626 12.3485 12.7207C12.3482 12.9982 12.1241 13.2248 11.8466 13.2252C11.0186 13.2266 10.1902 13.2258 9.36221 13.2261Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M8.8619 16.329C8.86201 16.055 9.08401 15.8342 9.35803 15.8341C10.1889 15.8337 11.0197 15.8344 11.8506 15.8358C12.1256 15.8363 12.3484 16.0588 12.3477 16.3338C12.3471 16.578 12.346 16.8223 12.3464 17.0666C12.3468 17.3461 12.1207 17.5745 11.8411 17.5759C11.0084 17.5801 10.175 17.597 9.34289 17.5745C9.06064 17.5668 8.84621 17.3219 8.85441 17.0397C8.86128 16.8028 8.86181 16.5658 8.8619 16.329Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M8.86234 20.689C8.86442 20.413 9.09207 20.1933 9.36805 20.1959C10.195 20.2035 11.0219 20.1978 11.8488 20.1951C12.1251 20.1942 12.3492 20.4181 12.3483 20.6945C12.3474 20.9455 12.3462 21.1967 12.346 21.4479C12.3457 21.7252 12.1214 21.9508 11.8441 21.9504C11.0175 21.9492 10.191 21.9459 9.36495 21.9505C9.08841 21.952 8.862 21.7298 8.86107 21.4532C8.86022 21.1984 8.86043 20.9436 8.86234 20.689Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M8.86184 25.0596C8.8622 24.7815 9.08955 24.5574 9.36759 24.5594C10.1932 24.5652 11.0189 24.5624 11.8445 24.559C12.1229 24.5579 12.3482 24.7844 12.346 25.0628C12.344 25.3065 12.3428 25.5502 12.3443 25.794C12.3461 26.0773 12.1172 26.3103 11.8338 26.3086C11.0108 26.3038 10.1874 26.3059 9.36434 26.3106C9.088 26.3122 8.86249 26.0896 8.86193 25.8133C8.86142 25.5621 8.86151 25.3108 8.86184 25.0596Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M8.86086 29.417C8.86241 29.1397 9.08939 28.9163 9.36668 28.9178C10.1931 28.9222 11.0196 28.9187 11.846 28.9197C12.1229 28.92 12.3462 29.1459 12.346 29.4228C12.3458 29.6732 12.3467 29.9236 12.3476 30.174C12.3486 30.4507 12.1243 30.6752 11.8476 30.674C11.0206 30.6705 10.1937 30.6625 9.3673 30.674C9.09465 30.6779 8.86668 30.4651 8.86263 30.1924C8.8588 29.9339 8.85941 29.6755 8.86086 29.417Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        <path d="M8.86043 33.7828C8.86155 33.5089 9.08418 33.2881 9.35804 33.2875C10.1879 33.2855 11.0177 33.2832 11.8476 33.2881C12.1252 33.2897 12.3475 33.5182 12.3467 33.7959C12.3461 34.0418 12.3472 34.2877 12.348 34.5338C12.3488 34.8092 12.1254 35.0318 11.85 35.0319C11.0195 35.0321 10.1891 35.0327 9.35918 35.0329C9.08532 35.033 8.86226 34.8127 8.86083 34.5388C8.85951 34.2867 8.85941 34.0347 8.86043 33.7828Z" fill="#D4321E" stroke="#D4321E" stroke-width="0.2"/>
+                                        </svg>
+                                </div>
+                                <div class="equipment__subtitle">Бетонозаводы</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="equipment__column">
+                        <div class="equipment__item">
+                            <a href="" class="equipment__btn-big">
+                                <div class="equipment__icon">
+                                    <svg class="icon-6" width="55" height="53" viewBox="0 0 55 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25.6418 30.3848C24.0684 29.8013 22.9434 28.25 22.9434 26.4279C22.9434 24.106 24.7703 22.2238 27.0239 22.2238C29.2775 22.2238 31.1044 24.106 31.1044 26.4279C31.1044 28.25 29.9794 29.8013 28.406 30.3848" stroke="#D4321E" stroke-width="2"/>
+                                        <path d="M5.94175 26.9854C5.94175 21.4756 8.26181 15.7794 11.7224 12.0235M5.94175 26.9854L22.9438 26.9854M5.94175 26.9854C5.94175 31.4405 7.32366 35.5729 9.6822 38.9773M5.94175 26.9854L1.03883 26.9854M27.0243 5.90288L27.0243 21.8847M27.0243 5.90288C20.8905 5.90288 15.575 7.84224 11.7224 12.0235M27.0243 5.90288C33.158 5.90288 38.1335 7.84224 41.9861 12.0235M27.0243 5.90288L27.0243 0.999997M48.1068 26.9854C48.1068 21.4756 45.4467 15.7794 41.9861 12.0235M48.1068 26.9854L31.1048 26.9854M48.1068 26.9854C48.1068 31.4406 46.7249 35.5729 44.3664 38.9773M48.1068 26.9854L53.5 26.9854M19.8834 46.8279L25.5534 30.4175M19.8834 46.8279C15.718 45.3286 12.1608 42.5549 9.6822 38.9773M19.8834 46.8279L18.199 51.5M34.1651 46.8279L28.4951 30.4175M34.1651 46.8279C38.3306 45.3286 41.8878 42.555 44.3664 38.9773M34.1651 46.8279L35.8495 51.5M11.7224 12.0235L23.6239 23.5849M11.7224 12.0235L7.90291 8.35423M41.9861 12.0235L30.0846 23.5849M41.9861 12.0235L45.6553 8.35423M9.6822 38.9773L23.5922 28.9466M9.6822 38.9773L5.45146 42.1845M44.3664 38.9773L30.4563 28.9466M44.3664 38.9773L49.0874 42.6748" stroke="#D4321E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                </div>
+                                <div class="equipment__subtitle">Расходные материалы</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="ladder">
+            <div class="container">
+               <div class="ladder__row">
+                    <div class="ladder__collumn">
+                        <div class="ladder__container">
+                            <div class="ladder__title">10 лет снабжаем строительные объекты по всей России!</div>
+                            <div class="ladder__text _anim-items">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro necessitatibus in? Voluptatum ab facilis nam delectus sit qui corporis mollitia obcaecati placeat deserunt. Odit a unde quod neque consectetur?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro necessitatibus in? Voluptatum ab facilis nam delectus sit qui corporis mollitia obcaecati placeat deserunt. Odit a unde quod neque consectetur?</p>
+                            </div>
+
+                        </div>
+                        <button class="ladder__priсe priсe" id="btnPriсe">
+                            <svg class="icon-download">
+                                <use xlink: href="sprite.svg#download"></use>
+                            </svg>
+                        <span class="ladder__price-text">Скачать прайс</span></button>
+                    </div>  
+                    <div class="ladder__collumn">
+                        <div class="ladder_imge">
+                            <img src="./img/inserts/ladder_woods.png" alt="лестница">
+                        </div>
+                    </div>  
+                    <div class="ladder__bgr"></div>
+                </div>     
+            </div>        
+    </div>
+
+    <div class="objects">
+            <div class="container">
+                <div class="objects__body">
+                    <div class="objects__title title">Новые объекты</div>
+                    <div class="objects__wrapper-btn">
+                    <a href="" class="objects__btn-all btn-all">
+                    <span>Все объекты</span>
+                    </a>
+                    </div>
+                </div>
+
+                <div class="objects__row">
+                    <div class="objects__collumns">
+                        <div class="objects__collumn _anim-items">
+                            <div class="objects__item-object item-object">
+                                <div class="item-object__row">
+                                    <div class="item-object__image">
+                                        <img src="./img/objects/obj_1.jpg" alt="объект">
+                                    </div>
+                                    <div class="item-object__bgr"></div>
+                                    <div class="item-object__body">
+                                        <div class="item-object__btn-categories">
+                                            <a href="" >
+                                                <span>г. владивосток</span>
+                                            </a>
+                                            <a href="">
+                                                <span>промышленные</span>
+                                            </a>
+                                        </div>
+                                        <div class="item-object__text">Искусственная горка для чемпионата России по мотогонкам</div>
+                                    </div>
+                                    <a href="" class="item-object__btn-next btn-next">
+                                        <span>Посмотреть объект</span>
+                                        <svg class="icon-arrow icon-arrow_white">
+                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="objects__collumns">
+                        <div class="objects__collumn _anim-items">
+                            <div class="objects__item-object item-object">
+                                <div class="item-object__row">
+                                    <div class="item-object__image">
+                                        <img src="./img/objects/obj_2.jpg" alt="объект">
+                                    </div>
+                                    <div class="item-object__bgr"></div>
+                                    <div class="item-object__body">
+                                        <div class="item-object__btn-categories">
+                                            <a href="" >
+                                                <span>г. владивосток</span>
+                                            </a>
+                                            <a href="">
+                                                <span>промышленные</span>
+                                            </a>
+                                        </div>
+                                        <div class="item-object__text">Многопрофильный медецинский центр</div>
+                                    </div>
+                                    <a href="" class="item-object__btn-next btn-next">
+                                        <span>Посмотреть объект</span>
+                                        <svg class="icon-arrow icon-arrow_white">
+                                            <use xlink: href="sprite.svg#arr-right"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <div class="short-news">
+            <div class="container">
+                <div class="short-news__title title">Новости</div>
+                <div class="short-news__wrapper-btn">
+                   <a href="/news.html" class="short-news__btn-all btn-all">
+                    <span>Все новости</span>
+                    </a>
+                </div>
+                <div class="short-news__row">
+                    <div class="short-news__collumn">
+                        <div class="short-news__item">
+                            <div class="short-news__body">
+                                <div class="short-news__date">6 июня, 2021</div>
+                                <div class="short-news__text">
+                                   <p> Система клиновых лесов Vektor Ring Lock на ВЭФ 2019</p>
+                                </div>
+                               <a href="/one-news.html" class="short-news__btn-next btn-next">
+                                    <span>Читать новость</span>
+                                    <svg class="icon-arrow">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="short-news__collumn">
+                        <div class="short-news__item">
+                            <div class="short-news__body">
+                                <div class="short-news__date">6 июня, 2021</div>
+                                <div class="short-news__text">
+                                   <p> Заливка центрального свода кафедрального собора</p>
+                                </div>
+                                <a href="" class="short-news__btn-next btn-next">
+                                    <span>Читать новость</span>
+                                    <svg class="icon-arrow">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="short-news__collumn">
+                        <div class="short-news__item">
+                            <div class="short-news__body">
+                                <div class="short-news__date">6 июня, 2021</div>
+                                <div class="short-news__text">
+                                   <p> Система клиновых лесов Vektor Ring Lock на ВЭФ 2019</p>
+                                </div>
+                               <a href="/one-news.html" class="short-news__btn-next btn-next">
+                                    <span>Читать новость</span>
+                                    <svg class="icon-arrow">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="short-new__btnTwo btnTwo">
+                    <a href="" class="short-new__previous previous">
+                        <img src="./img/icons/arrow_left.svg" alt="">
+                    </a>
+                    <a href="" class="short-new__next next">
+                        <img src="./img/icons/arrow_right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+    </div>
+
+    <div class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__columns">
+                        <div class="footer__menu">
+                            <div class="footer__text">
+                                <div class="footer__column">
+                                    <div class="footer__equipment">
+                                        <div class="footer__title">Оборудование</div>
+                                        <div class="footer__text-menu">
+                                            <a href="#">Опалубка перекрытий</a>
+                                            <a href="#">Стеновая опалубка</a>
+                                            <a href="#">Специальная опалубка</a>
+                                            <a href="#">Несущие леса</a>
+                                            <a href="#">Подъемное оборудование</a>
+                                            <a href="#">Бетонанасосы и стрелы</a>
+                                            <a href="#">Бетонозаводы</a>
+                                        </div>
+                                    </div>
+                                    <div class="footer__company">
+                                        <div class="footer__title">Компания</div>
+                                        <div class="footer__text-menu">
+                                            <a href="">Филиалы</a>
+                                            <a href="">Объекты</a>
+                                            <a href="">Вакансии</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer__column">
+                                    <div class="footer__buyers">
+                                        <div class="footer__title">Покупателям</div>
+                                        <div class="footer__text-menu">
+                                            <a href="">Инженерное сопровождение</a>
+                                            <a href="">Шефмонтаж</a>
+                                            <a href="">Доставка</a>
+                                            <a href="">Гарантия и сервис</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__copyright">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                        </div>
+                        <div class="footer__contact">
+                            <div class="footer__body">
+                                <div class="footer__office">центральный офис</div>
+                                <div class="footer__addres">г. Москва, Пресненская наб., д.12. оф.Е8</div>
+                                <div class="footer__telephone">
+                                    <svg class="icon-phone">
+                                        <use xlink: href="sprite.svg#phone"></use>
+                                    </svg>
+                                    <a href="tel:78002501712">8(800) 250-17-12</a>
+                                </div>
+                                <div class="footer__email">
+                                    <svg class="icon-email">
+                                        <use xlink: href="sprite.svg#email"></use>
+                                    </svg>
+                                    <a href="mailto:info@vektorvl.ru">info@vektorvl.ru</a>
+                                </div>
+                                <div class="footer__time">
+                                    <svg class="icon-clock">
+                                        <use xlink: href="sprite.svg#clock"></use>
+                                    </svg>
+                                    <span>с 09:00 по 18:00</span>
+                                </div>
+                               <a href="/contacts.html" class="footer__btn-next btn-next">
+                                    <span>Филиалы компании</span>
+                                    <svg class="icon-arrow icon-arrow_gray">
+                                        <use xlink: href="sprite.svg#arr-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="footer__copyright footer__copyright_media">&copy; 2011-2021 &laquo;вектор-инженеринг&raquo; - строительные технологии и оборудование</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        
+</div>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/anim_scroll.js"></script>
+<script src="js/burger-menu.js"></script>
+<script src="js/pop-up-window-price.js"></script>
+
+<script>
+  /////////////////////////////////////////////////подключение слайдера
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+    autoplay:{
+        delay: 2500,
+        stopOnLastSlider: true,
+        disableOninteraction: false
+    },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.slider__previous',
+    prevEl: '.slider__next',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+/////////////////////////////////////////////////подключение мини-слайдера при адаптиве
+
+</script>
+
+
+</body>
+
+</html>
